@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML refers to mainly HTML5 elements that are intended to make HTML more meaningful. For example, a section of markup can now be put in a <section> tag, rather than simply a <div>. Someone reading your code will understand that the section is meant to be grouped together. So basically semant HTMl does the same thing as stylistic HTML, but it allows for better readability and understanding for humans. This context is also better for accessability. People who are visually impaired cannot follow visual cues to navigate a webpage. Semantic HTML allows for screen readers to better describe the page.
+    Semantic HTML refers to mainly HTML5 elements that are intended to make HTML more meaningful. For example, a section of markup can now be put in a section tag, rather than simply a div. Someone reading your code will understand that the section is meant to be grouped together. So basically semant HTMl does the same thing as stylistic HTML, but it allows for better readability and understanding for humans. This context is also better for accessability. People who are visually impaired cannot follow visual cues to navigate a webpage. Semantic HTML allows for screen readers to better describe the page.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
