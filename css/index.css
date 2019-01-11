@@ -304,7 +304,6 @@ footer nav a {
 .about-page .about {
     border-bottom: 1px dashed black;
     padding: 0 2% 3%;
-
 }
 
 /* CARDS SECTION */
@@ -326,11 +325,12 @@ footer nav a {
     margin-top: 3%;
 }
 
-.about-page .cards .card button {
+.about-page .cards .card button,
+.products .product button {
     border: 2px solid black;
     background: white;
     border-radius: 5px;
-    padding: 2% 3%;
+    padding: 2% 5%;
     font-size: 16px;
     margin: 6% 0;
 }
@@ -339,4 +339,28 @@ footer nav a {
 
 .about-page .work-together {
     padding: 0 2% 6%;
+}
+
+/* PRODUCTS SECTION */
+
+
+.product-page .about-products {
+    border-bottom: 1px dashed black;
+    padding: 0 2% 3%;
+    margin: 2% 0;
+}
+
+.product-page .products {
+    padding: 2% 2% 4%;
+}
+
+.product-page .products .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 6%;
+}
+
+.product-page .products .product div {
+    flex: 0 1 49%;
 }
