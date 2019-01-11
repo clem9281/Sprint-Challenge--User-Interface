@@ -364,3 +364,17 @@ footer nav a {
 .product-page .products .product div {
     flex: 0 1 49%;
 }
+
+/* ANIMATIONS FOR STRETCH */
+
+.card img:hover,
+.products img:hover {
+    box-shadow: 5px 5px 5px #575757;
+    width: 385px;
+    height: 245px;
+}
+
+img {
+    transition: box-shadow .5s, width .8s, height .8s;
+    transition-timing-function: ease-out;
+}
