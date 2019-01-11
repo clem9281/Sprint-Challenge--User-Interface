@@ -378,3 +378,14 @@ img {
     transition: box-shadow .5s, width .8s, height .8s;
     transition-timing-function: ease-out;
 }
+
+.boxes .box:hover {
+    height: 110px;
+    width: 110px;
+    box-shadow: 5px 5px 5px #575757;
+}
+
+.boxes .box {
+    transition: box-shadow .5s, width .8s, height .8s;
+    transition-timing-function: ease-out;
+}
