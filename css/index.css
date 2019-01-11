@@ -163,24 +163,6 @@ p {
     margin: 0 auto;
 }
 
-/* NAVIGATION AND HEADER IMAGE */
-
-header {
-    margin: 3% 0;
-}
-
-header nav {
-    height: 70px;
-    margin-right: 7%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
-header nav a {
-    text-decoration: none;
-    color: black;
-}
 
 .top-content {
     display: flex;
@@ -223,6 +205,61 @@ header nav a {
     justify-content: center;
 }
 
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* NAVIGATION AND HEADER IMAGE */
+
+header {
+    margin: 3% 0;
+}
+
+header nav {
+    height: 70px;
+    margin-right: 7%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* COLORS FOR BOXES */
+
 .middle-content .boxes .box:first-child {
     background-color: teal;
 }
@@ -263,42 +300,6 @@ header nav a {
     background-color: dodgerblue;
 }
 
-
-
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
 /* ABOUT SECTION */
 
 .about-page .about {
@@ -306,7 +307,7 @@ footer nav a {
     padding: 0 2% 3%;
 }
 
-/* CARDS SECTION */
+/* ABOUT PAGE CARDS SECTION */
 
 .about-page .cards {
     display: flex;
@@ -335,14 +336,13 @@ footer nav a {
     margin: 6% 0;
 }
 
-/* WORK TOGETHER SECTION */
+/* ABOUT PAGE WORK TOGETHER SECTION */
 
 .about-page .work-together {
     padding: 0 2% 6%;
 }
 
-/* PRODUCTS SECTION */
-
+/* PRODUCTS PAGE PRODUCTS SECTION */
 
 .product-page .about-products {
     border-bottom: 1px dashed black;
