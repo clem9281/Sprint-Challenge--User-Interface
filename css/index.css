@@ -3,60 +3,152 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,6 +163,7 @@ p {
     margin: 0 auto;
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +175,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -111,6 +204,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +237,155 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* NAVIGATION AND HEADER IMAGE */
+
+header {
+    margin: 3% 0;
+}
+
+header nav {
+    height: 70px;
+    margin-right: 7%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* COLORS FOR BOXES */
+
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+/* ABOUT SECTION */
+
+.about-page .about {
+    border-bottom: 1px dashed black;
+    padding: 0 2% 3%;
+}
+
+/* ABOUT PAGE CARDS SECTION */
+
+.about-page .cards {
+    display: flex;
+    padding: 2% 2% 4%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .cards .card {
+    flex: 0 1 48%;
+    border-bottom: 1px dashed black;
+    margin: 3% 0;
+}
+
+.about-page .cards .card h2 {
+    margin-top: 3%;
+}
+
+.about-page .cards .card button,
+.products .product button {
+    border: 2px solid black;
+    background: white;
+    border-radius: 5px;
+    padding: 2% 5%;
+    font-size: 16px;
+    margin: 6% 0;
+}
+
+/* ABOUT PAGE WORK TOGETHER SECTION */
+
+.about-page .work-together {
+    padding: 0 2% 6%;
+}
+
+/* PRODUCTS PAGE PRODUCTS SECTION */
+
+.product-page .about-products {
+    border-bottom: 1px dashed black;
+    padding: 0 2% 3%;
+    margin: 2% 0;
+}
+
+.product-page .products {
+    padding: 2% 2% 4%;
+}
+
+.product-page .products .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 6%;
+}
+
+.product-page .products .product div {
+    flex: 0 1 49%;
+}
+
+/* ANIMATIONS FOR STRETCH */
+
+.card img:hover,
+.products img:hover {
+    box-shadow: 5px 5px 5px #575757;
+    width: 385px;
+    height: 245px;
+}
+
+img {
+    transition: box-shadow .5s, width .8s, height .8s;
+    transition-timing-function: ease-out;
+}
+
+.boxes .box:hover {
+    height: 110px;
+    width: 110px;
+    box-shadow: 5px 5px 5px #575757;
+}
+
+.boxes .box {
+    transition: box-shadow .5s, width .8s, height .8s;
+    transition-timing-function: ease-out;
 }
